@@ -1,6 +1,11 @@
 ## Elisa's Portafolio
 
-[Project Solved](https://leonidasesteban.com/proyectos/portafolio-elisa)
+[Source](https://leonidasesteban.com/proyectos/portafolio-elisa)
+
+## Previous view
+
+![Img previous view](https://github.com/oscarossesa/elisa-portafolio/blob/main/public/assets/images/portfolio.png)
+![Img previous view responsive](https://github.com/oscarossesa/elisa-portafolio/blob/main/public/assets/images/portfolio-responsive.png)
 
 ## Utils
 
