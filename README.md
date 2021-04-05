@@ -1,10 +1,10 @@
 ## Elisa's Portafolio
 
-[Project Solved](https://leonidasesteban.com/proyectos/marvol)
+[Project Solved](https://leonidasesteban.com/proyectos/portafolio-elisa)
 
 ## Utils
 
 - [x] styled-components
-- [x] Apply the GlobalStyle component
+- [x] apply the GlobalStyle component
 
 fuente: https://scalablecss.com/styled-components-global-styles/
