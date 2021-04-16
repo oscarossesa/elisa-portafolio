@@ -1,20 +1,20 @@
 import React from 'react'
 import MainNavigationItem from '../MainNavigationItem/MainNavigationItem.container'
-import { DownloadText, MainNavigationBrand, MainNavigationButton, MainNavigationItemsWrapper, MainNavigationWrapper } from './MainNavigation.styles'
+import * as S from './MainNavigation.styles'
 
 const MainNavigation = () => {
   return (
-    <MainNavigationWrapper>
-      <MainNavigationBrand>Logo</MainNavigationBrand>
-      <MainNavigationItemsWrapper>
+    <S.MainNavigationWrapper>
+      <S.MainNavigationBrand>Logo</S.MainNavigationBrand>
+      <S.MainNavigationItemsWrapper>
         <MainNavigationItem label="Hola" />
         <MainNavigationItem label="Proyectos" />
         <MainNavigationItem label="Hablemos" />
-      </MainNavigationItemsWrapper>
-      <MainNavigationButton>
-        <DownloadText>Descargar</DownloadText>&nbsp;Currículum
-      </MainNavigationButton>
-    </MainNavigationWrapper>
+      </S.MainNavigationItemsWrapper>
+      <S.MainNavigationButton>
+        <S.DownloadText>Descargar</S.DownloadText>&nbsp;Currículum
+      </S.MainNavigationButton>
+    </S.MainNavigationWrapper>
   )
 }
 
