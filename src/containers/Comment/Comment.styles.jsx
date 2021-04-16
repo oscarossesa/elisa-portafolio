@@ -13,10 +13,11 @@ export const Content = styled.div`
   align-items: center;
   padding: 40px 0;
   max-width: 900px;
+  gap: 24px;
 
   // Small devices (landscape phones, 576px and up)
   @media (min-width: 576px) { 
-    padding: 200px 0;
+    padding: 100px 0;
   }
 `
 

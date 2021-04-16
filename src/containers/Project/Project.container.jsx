@@ -10,25 +10,43 @@ const Project = () => {
   const handleViewCode = () => console.log('view code')
 
   return (
-    <S.ProjectWrapper>
-      <S.Icon src="/elisa-portafolio/assets/images/laptop.png" />
-      <S.ProjectInfo>
-        <S.WebContent>
-          <Paragraph color="primary" level="body1">
-            leonidasesteban.com
+    <S.Section>
+      <S.Article>
+        <S.ProjectDescription>
+          <S.Icon src="/elisa-portafolio/assets/images/laptop.png" />
+          <S.ProjectInfo>
+            <S.WebContent>
+              <Paragraph color="primary" level="body1">
+                leonidasesteban.com
+              </Paragraph>
+            </S.WebContent>
+            <Paragraph level="body1">
+              Accede a más de 120 proyectos que te
+              ayudarán a mejorar tus habilidades como
+              desarrollador Front-End.
+            </Paragraph>
+            <S.ProjectActions>
+              <Button color="secondary" onClick={handleViewCode}>
+                VER CÓDIGO
+              </Button>
+              <Button onClick={handleViewProject}>
+                VER PROYECTO
+              </Button>
+            </S.ProjectActions>
+          </S.ProjectInfo>
+        </S.ProjectDescription>
+        <S.ProjectComment>
+          <S.Icon src="/elisa-portafolio/assets/images/user.png" width="80px" />
+          <Paragraph level='headline4'>
+            "Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo.
+            Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses".
           </Paragraph>
-        </S.WebContent>
-        <Paragraph level="body1">
-          Accede a más de 120 proyectos que te
-          ayudarán a mejorar tus habilidades como
-          desarrollador Front-End.
-        </Paragraph>
-        <S.ProjectActions>
-          <Button width="100%" color="secondary" onClick={handleViewCode}>VER CÓDIGO</Button>
-          <Button width="100%" onClick={handleViewProject}>VER PROYECTO</Button>
-        </S.ProjectActions>
-      </S.ProjectInfo>
-    </S.ProjectWrapper>
+          <Paragraph level='headline5' opacity={0.5}>
+            LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+          </Paragraph>
+        </S.ProjectComment>
+      </S.Article>
+    </S.Section>
   )
 }
 

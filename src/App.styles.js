@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1110px;
-  padding: 0 16px;
+  padding: 16px 16px;
 
   // Extra large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) { 

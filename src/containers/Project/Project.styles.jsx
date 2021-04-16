@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
-export const ProjectWrapper = styled.div`
+export const Section = styled.section``
+
+export const Article = styled.article``
+
+export const ProjectDescription = styled.div`
   width: 100%;
   margin: 24px 0px;
   display: flex;
@@ -8,11 +12,35 @@ export const ProjectWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding: 40px 0;
 
   // Small devices (landscape phones, 576px and up)
   @media (min-width: 576px) { 
     flex-direction: row-reverse;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 80px 0;
+  }
+`
+
+export const ProjectComment = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 24px;
+  margin: 10px 0px;
+  gap: 24px;
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { 
+    padding: 80px;
+
+    h4 {
+      text-align: center;
+    }
   }
 `
 
@@ -33,7 +61,7 @@ export const ProjectActions = styled.div`
 export const Icon = styled.img`
   // Small devices (landscape phones, 576px and up)
   @media (min-width: 576px) { 
-    width: 570px;
+    width: ${props => props.width || '570px'};
   }
 `
 
