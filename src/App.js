@@ -3,6 +3,7 @@ import MainNavigationContainer from './containers/MainNavigation/MainNavigation.
 import HeaderContainer from './containers/Header/Header.container'
 import CommentContainer from './containers/Comment/Comment.container'
 import ProjectContainer from './containers/Project/Project.container'
+import ContactContainer from './containers/Contact/Contact.container'
 import { Container, Wrapper } from './App.styles'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <HeaderContainer />
         <CommentContainer />
         <ProjectContainer />
+        <ContactContainer />
       </Wrapper>
     </Container>
   );

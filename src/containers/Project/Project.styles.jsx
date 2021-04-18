@@ -31,7 +31,7 @@ export const ProjectComment = styled.div`
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(40px);
   border-radius: 24px;
-  margin: 10px 0px;
+  margin: 40px 0 80px;
   gap: 24px;
 
   // Small devices (landscape phones, 576px and up)
@@ -72,7 +72,6 @@ export const ProjectInfo = styled.div`
 
   // Small devices (landscape phones, 576px and up)
   @media (min-width: 576px) { 
-    /* flex-direction: row; */
     align-items: flex-start;
   }
 `

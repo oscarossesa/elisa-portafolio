@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../components/Button/Button'
 import MainNavigationItem from '../MainNavigationItem/MainNavigationItem.container'
 import * as S from './MainNavigation.styles'
 
@@ -11,9 +12,9 @@ const MainNavigation = () => {
         <MainNavigationItem label="Proyectos" />
         <MainNavigationItem label="Hablemos" />
       </S.MainNavigationItemsWrapper>
-      <S.MainNavigationButton>
+      <Button color="custom-download">
         <S.DownloadText>Descargar</S.DownloadText>&nbsp;Currículum
-      </S.MainNavigationButton>
+      </Button>
     </S.MainNavigationWrapper>
   )
 }

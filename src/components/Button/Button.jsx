@@ -6,6 +6,7 @@ const Button = (props) => {
   const { children, color, onClick, width } = props
   const CustomButton = useMemo(() => {
     if (color === 'secondary') return S.SecondaryButton
+    if (color === 'custom-download') return S.DownloadButton
     return S.PrimaryButton
   }, [color])
 
@@ -27,7 +28,7 @@ Button.defaultProps = {
 
 Button.propTypes = {
   children: PropTypes.node.isRequired,
-  color: PropTypes.oneOf(['primary', 'secondary']),
+  color: PropTypes.oneOf(['primary', 'secondary', 'custom-download']),
   onClick: PropTypes.func,
   width: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
 }

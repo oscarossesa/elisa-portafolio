@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const ParagraphBase = styled.p``
+export const ParagraphBase = styled.p`
+  margin: ${props => props.margin};
+`
 
 export const Headline1 = styled.h1``
 
@@ -24,11 +26,10 @@ export const Headline5 = styled.h5`
   font-weight: bold;
   font-size: 24px;
   line-height: 39px;
-  opacity: ${props => props.opacity}
+  opacity: ${props => props.opacity};
 `
 
 export const Body1 = styled(ParagraphBase)`
-  font-family: ${props => props.theme.typography.fontFamily};
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
