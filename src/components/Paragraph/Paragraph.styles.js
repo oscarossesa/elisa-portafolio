@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const ParagraphBase = styled.p`
   margin: ${props => props.margin};
+  text-align: ${props => props.textAlign};
 `
 
 export const Headline1 = styled.h1``
@@ -35,7 +36,7 @@ export const Body1 = styled(ParagraphBase)`
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.005em;
-  color: ${props => props.theme.color.black1};
+  color: ${props => props.theme.color.black};
 `
 
 export const Body2 = styled(ParagraphBase)``

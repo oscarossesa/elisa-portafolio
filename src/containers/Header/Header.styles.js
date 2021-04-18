@@ -17,7 +17,7 @@ export const Ellipse = styled.div`
 
 `
 
-export const Heading = styled.div`
+export const Wrapper = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,9 +79,6 @@ export const Image = styled.img`
   }
 `
 
-export const SocialNetworks = styled.div`
-  display: flex;
-  align-items: flex-start;
+export const SocialNetwors = styled.div`
   margin: 16px 0px;
-  gap: 16px;
 `

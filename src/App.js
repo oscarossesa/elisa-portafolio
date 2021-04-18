@@ -4,6 +4,7 @@ import HeaderContainer from './containers/Header/Header.container'
 import CommentContainer from './containers/Comment/Comment.container'
 import ProjectContainer from './containers/Project/Project.container'
 import ContactContainer from './containers/Contact/Contact.container'
+import FooterContainer from './containers/Footer/Footer.container'
 import { Container, Wrapper } from './App.styles'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <CommentContainer />
         <ProjectContainer />
         <ContactContainer />
+        <FooterContainer />
       </Wrapper>
     </Container>
   );
