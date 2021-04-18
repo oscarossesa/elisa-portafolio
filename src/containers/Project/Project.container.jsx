@@ -41,7 +41,7 @@ const Project = () => {
             "Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo.
             Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses".
           </Paragraph>
-          <Paragraph level='headline5' opacity={0.5}>
+          <Paragraph level='caption' opacity={0.5}>
             LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
           </Paragraph>
         </S.ProjectComment>

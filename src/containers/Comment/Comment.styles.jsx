@@ -32,16 +32,24 @@ export const Here = styled.h3`
 
 export const Icon = styled.img``
 
+// FIXME: improve
 export const Me = styled.p`
   font-family: ${props => props.theme.typography.fontFamily};
   font-style: normal;
-  font-weight: 300;
-  font-size: 34px;
-  line-height: 55px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
   text-align: center;
   color: ${props => props.theme.color.black1};
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { 
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 55px;
+  }
 `

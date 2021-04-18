@@ -5,9 +5,14 @@ import * as S from './Paragraph.styles'
 const Paragraph = ({ children, level, opacity, textAlign, margin }) => {
   const CustomParagraph = useMemo(() => {
     if (level === 'headline1') return S.Headline1
+    if (level === 'headline2') return S.Headline2
+    if (level === 'headline2') return S.Headline2
     if (level === 'headline4') return S.Headline4
     if (level === 'headline5') return S.Headline5
     if (level === 'body1') return S.Body1
+    if (level === 'body2') return S.Body2
+    if (level === 'button') return S.Button
+    if (level === 'caption') return S.Caption
     return S.ParagraphBase
   }, [level])
 
