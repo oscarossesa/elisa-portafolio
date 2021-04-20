@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/elisa-portafolio/static/js/main.eb2feeb5.chunk.js",
-    "main.js.map": "/elisa-portafolio/static/js/main.eb2feeb5.chunk.js.map",
+    "main.js": "/elisa-portafolio/static/js/main.f56aa12d.chunk.js",
+    "main.js.map": "/elisa-portafolio/static/js/main.f56aa12d.chunk.js.map",
     "runtime-main.js": "/elisa-portafolio/static/js/runtime-main.d485ed91.js",
     "runtime-main.js.map": "/elisa-portafolio/static/js/runtime-main.d485ed91.js.map",
     "static/js/2.aa7b9fb2.chunk.js": "/elisa-portafolio/static/js/2.aa7b9fb2.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.d485ed91.js",
     "static/js/2.aa7b9fb2.chunk.js",
-    "static/js/main.eb2feeb5.chunk.js"
+    "static/js/main.f56aa12d.chunk.js"
   ]
 }
