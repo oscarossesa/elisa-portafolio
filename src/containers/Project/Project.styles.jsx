@@ -15,8 +15,9 @@ export const ProjectDescription = styled.div`
   padding: 40px 0;
 
   // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { 
-    flex-direction: row-reverse;
+  @media (min-width: 900px) { 
+    flex-direction: ${props => props.reverse ? 'row-reverse' : 'row'};
+    /* flex-direction: row; */
     justify-content: space-between;
     padding: 80px 0;
   }
@@ -59,9 +60,12 @@ export const ProjectActions = styled.div`
 `
 
 export const Icon = styled.img`
+  width: ${props => props.width || '100%'};
   // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { 
-    width: ${props => props.width || '570px'};
+  @media (min-width: 900px) { 
+    width: ${props => props.width || '100%'};
+    max-width: ${props => props.maxWidth};
+    padding: ${props => props.padding};
   }
 `
 
