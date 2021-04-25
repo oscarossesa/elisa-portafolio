@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/elisa-portafolio/static/js/main.f56aa12d.chunk.js",
-    "main.js.map": "/elisa-portafolio/static/js/main.f56aa12d.chunk.js.map",
+    "main.js": "/elisa-portafolio/static/js/main.f59d2a21.chunk.js",
+    "main.js.map": "/elisa-portafolio/static/js/main.f59d2a21.chunk.js.map",
     "runtime-main.js": "/elisa-portafolio/static/js/runtime-main.d485ed91.js",
     "runtime-main.js.map": "/elisa-portafolio/static/js/runtime-main.d485ed91.js.map",
-    "static/js/2.aa7b9fb2.chunk.js": "/elisa-portafolio/static/js/2.aa7b9fb2.chunk.js",
-    "static/js/2.aa7b9fb2.chunk.js.map": "/elisa-portafolio/static/js/2.aa7b9fb2.chunk.js.map",
+    "static/js/2.1888b2fe.chunk.js": "/elisa-portafolio/static/js/2.1888b2fe.chunk.js",
+    "static/js/2.1888b2fe.chunk.js.map": "/elisa-portafolio/static/js/2.1888b2fe.chunk.js.map",
     "index.html": "/elisa-portafolio/index.html",
-    "static/js/2.aa7b9fb2.chunk.js.LICENSE.txt": "/elisa-portafolio/static/js/2.aa7b9fb2.chunk.js.LICENSE.txt"
+    "static/js/2.1888b2fe.chunk.js.LICENSE.txt": "/elisa-portafolio/static/js/2.1888b2fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d485ed91.js",
-    "static/js/2.aa7b9fb2.chunk.js",
-    "static/js/main.f56aa12d.chunk.js"
+    "static/js/2.1888b2fe.chunk.js",
+    "static/js/main.f59d2a21.chunk.js"
   ]
 }
