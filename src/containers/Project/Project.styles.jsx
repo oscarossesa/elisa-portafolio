@@ -30,7 +30,9 @@ export const ProjectComment = styled.div`
   padding: 24px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(40px);
-  border-radius: 24px;
+  border: 3px rgba(255, 255, 255, 0.2);
+  border-radius: 24px;  
+  border-style: outset none none outset;
   margin: 40px 0 80px;
   gap: 24px;
 
