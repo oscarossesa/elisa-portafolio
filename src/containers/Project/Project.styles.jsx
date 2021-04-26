@@ -14,10 +14,9 @@ export const ProjectDescription = styled.div`
   gap: 24px;
   padding: 40px 0;
 
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 900px) { 
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
     flex-direction: ${props => props.reverse ? 'row-reverse' : 'row'};
-    /* flex-direction: row; */
     justify-content: space-between;
     padding: 80px 0;
   }
@@ -61,8 +60,9 @@ export const ProjectActions = styled.div`
 
 export const Icon = styled.img`
   width: ${props => props.width || '100%'};
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 900px) { 
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
     width: ${props => props.width || '100%'};
     max-width: ${props => props.maxWidth};
     padding: ${props => props.padding};
@@ -93,4 +93,10 @@ export const WebContent = styled.div`
     line-height: 39px;
     padding: 0 8px;
   }
+`
+
+export const ButtonBody = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `

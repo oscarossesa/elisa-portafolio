@@ -7,22 +7,11 @@ export const BasicInformation = styled.div`
   max-height: 302px;
 `
 
-export const Ellipse = styled.div`
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  left: -180px;
-  top: 68px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(191, 53, 142, 0.5) 0%, rgba(191, 53, 142, 0) 100%);
-
-`
-
 export const Wrapper = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* margin: 0 auto; */
   max-width: 1110px;
 
   // Small devices (landscape phones, 576px and up)

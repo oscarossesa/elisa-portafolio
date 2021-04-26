@@ -5,7 +5,6 @@ import SocialNetworkContainer from '../SocialNetwork/SocialNetwork.container'
 const Header = () => {
   return (
     <S.Wrapper>
-      <S.Ellipse />
       <S.Avatar>
         <S.Image src="/elisa-portafolio/assets/images/person.png" />
       </S.Avatar>
@@ -13,7 +12,7 @@ const Header = () => {
         <S.Headline3>¡Hola a todos!</S.Headline3><br />
         <S.Headline2>Soy Elisa</S.Headline2><br />
         <S.Body1>
-          US.na Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+          Una Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
         </S.Body1>
         <S.SocialNetwors>
           <SocialNetworkContainer />

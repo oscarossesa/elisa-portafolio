@@ -27,7 +27,10 @@ const Project = () => {
             </Paragraph>
             <S.ProjectActions>
               <Button color="secondary" onClick={handleViewCode}>
-                VER CÓDIGO
+                <S.ButtonBody>
+                  <S.Icon src="/elisa-portafolio/assets/images/icon-github.svg" padding="0 9.92px 0 0" width="19.13px" />
+                  VER CÓDIGO
+                </S.ButtonBody>
               </Button>
               <Button onClick={handleViewProject}>
                 VER PROYECTO
@@ -60,7 +63,10 @@ const Project = () => {
             </Paragraph>
             <S.ProjectActions>
               <Button color="secondary" onClick={handleViewCode}>
-                VER CÓDIGO
+                <S.ButtonBody>
+                  <S.Icon src="/elisa-portafolio/assets/images/icon-github.svg" padding="0 9.92px 0 0" width="19.13px" />
+                  VER CÓDIGO
+                </S.ButtonBody>
               </Button>
               <Button onClick={handleViewProject}>
                 VER PROYECTO
@@ -92,7 +98,10 @@ const Project = () => {
             </Paragraph>
             <S.ProjectActions>
               <Button color="secondary" onClick={handleViewCode}>
-                VER CÓDIGO
+                <S.ButtonBody>
+                  <S.Icon src="/elisa-portafolio/assets/images/icon-github.svg" padding="0 9.92px 0 0" width="19.13px" />
+                  VER CÓDIGO
+                </S.ButtonBody>
               </Button>
               <Button onClick={handleViewProject}>
                 VER PROYECTO

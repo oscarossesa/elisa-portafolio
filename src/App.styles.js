@@ -15,3 +15,19 @@ export const Wrapper = styled.div`
     padding: 25px 0;
   } 
 `
+
+export const Ellipse = styled.div`
+  display: none;
+  position: absolute;
+  width: ${props => props.width};
+  height: ${props => props.height};
+  left: ${props => props.left};
+  top: ${props => props.top};
+  background: ${props => props.backgroundGradient};
+  opacity: ${props => props.opacity};
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { 
+    display: block;
+  }
+`
