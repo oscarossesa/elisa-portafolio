@@ -26,8 +26,8 @@ export const Ellipse = styled.div`
   background: ${props => props.backgroundGradient};
   opacity: ${props => props.opacity};
 
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { 
+  // Medium devices (tablets, less than 992px)
+  @media (min-width: 991.98px) { 
     display: block;
   }
 `
