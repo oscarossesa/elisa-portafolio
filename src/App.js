@@ -17,27 +17,27 @@ const App = () => {
         width="400px"
         height="400px"
       />
-      {/* <S.Ellipse
+      <S.Ellipse
         backgroundGradient="radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%)"
         left="377px"
         top="420px"
         width="400px"
         height="400px"
-      /> */}
-      {/* <S.Ellipse
+      />
+      <S.Ellipse
         backgroundGradient="radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%)"
         left="966px"
         top="2195px"
         width="400px"
         height="400px"
-      /> */}
-      {/* <S.Ellipse
+      />
+      <S.Ellipse
         backgroundGradient="radial-gradient(155% 155% at 50% 50%, rgba(40, 234, 232, 0.4) 0%, rgba(40, 234, 232, 0) 28.86%)"
         left="-35px"
         top="4780px"
         width="400px"
         height="400px"
-      /> */}
+      />
       <S.Wrapper>
         <MainNavigationContainer />
         <HeaderContainer />
