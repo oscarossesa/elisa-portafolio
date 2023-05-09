@@ -11,5 +11,3 @@
 
 - [x] styled-components
 - [x] apply the GlobalStyle component
-
-Source: https://scalablecss.com/styled-components-global-styles/
