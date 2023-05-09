@@ -12,4 +12,4 @@
 - [x] styled-components
 - [x] apply the GlobalStyle component
 
-fuente: https://scalablecss.com/styled-components-global-styles/
+Source: https://scalablecss.com/styled-components-global-styles/
